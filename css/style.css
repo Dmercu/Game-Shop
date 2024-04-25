@@ -13,6 +13,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  background-color: #f3f3f3;
 }
 
 .logo {
@@ -95,4 +96,56 @@ button {
   font-weight: 500px;
   border: none;
   cursor: pointer;
+}
+
+h2 {
+  position: relative;
+  color: #000000;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.productos_destacados {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d01418;
+}
+.detroit,
+.fifa,
+.mk2 {
+  background-color: #ffffff;
+  padding: 30px;
+  margin: 30px;
+  border-radius: 5px;
+  
+
+  img {
+    margin: 30px 68px 128px 68px;
+    width: 250px;
+  }
+}
+hr{
+    
+    border-top: 1px solid red;
+
+
+}
+
+h3{
+    color: #000;
+    font-size: 20px;
+    font-weight: 400px;
+}
+h4{
+    color: #000;
+    font-size: 13px;
+    font-weight: 400px;
+}
+h5{
+    color: #619D00;
+    font-size: 10px;
+    font-weight: 400px;
 }
