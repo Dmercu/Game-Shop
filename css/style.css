@@ -66,3 +66,33 @@ nav ul li a {
   display: none;
 }
 
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 612px;
+  background-image: url(../img/banner.webp);
+  background-position: center;
+  background-size: cover;
+}
+h1 {
+  color: #f3f3f3;
+  font-size: 40px;
+  font-weight: 700px;
+  margin: 50px;
+
+  span {
+    color: #d01418;
+  }
+}
+button {
+  width: 220px;
+  height: 61px;
+  background-color: #d01418;
+  color: #f3f3f3;
+  font-size: 25px;
+  font-weight: 500px;
+  border: none;
+  cursor: pointer;
+}
